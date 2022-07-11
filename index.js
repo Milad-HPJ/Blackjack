@@ -34,7 +34,7 @@ function startGame() {
 // Renders the game by checking the logic and showing messages, cards and sum.
 function renderGame() {
   sumEl.textContent = "sum: " + sum;
-  cardsEl.textContent = "Cards: "; // Whitout this code the for loop blew would duplicate the cards each time startGame() called!?
+  cardsEl.textContent = "Cards: "; // Whitout this code the for loop below would duplicate the cards each time startGame() called!?
 
   // This for loop goes throu cards array and shows it in the browser.
   for (let i = 0; i < cards.length; i++) {
